@@ -5,8 +5,8 @@ def computepay(h, r):
     pass  # ...
 
 
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
+h = float(input("Enter hours? "))
+r = float(input("Enter rate per hour? "))
 
-p = computepay(hrs, rte)
+p = h*r
 print("Pay", p)
